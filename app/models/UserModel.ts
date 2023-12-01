@@ -1,0 +1,6 @@
+interface UserModel {
+    "id": number
+    "username": string
+    "email": string
+    "expenses": [ExpenseModel]
+}
